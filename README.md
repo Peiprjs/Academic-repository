@@ -1,5 +1,5 @@
 Welcome to my bibliography launcher!
-Just append /\[number].htm at the end of the URL to get the file.
+Just append /\[number].htm at the end of the URL to get the file or click the following hyperlink:
 
-- 001: Book analysis for "Oda a Espanya", Joan Maragall
-- 002: Book analysis for "Tres sombreros de copa", Miguel Mihura
+- [001](biblio.peiphy.xyz/001.htm) book analysis for "Oda a Espanya", Joan Maragall
+- [002](biblio.peiphy.xyz/002.htm): Book analysis for "Tres sombreros de copa", Miguel Mihura

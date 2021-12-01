@@ -5,4 +5,4 @@ Just append /\[number].htm at the end of the URL to get the file or click the fo
 - [002](002.htm): book comment of "Tres sombreros de copa", Miguel Mihura
 - [003](003.htm): PQ2: n/m acetone
 
-- [The Three Thee Theory](three-thee.htm): A philosophical theory I came up with.
+- [The Three Thee Theory](three-thee): A philosophical theory I came up with.

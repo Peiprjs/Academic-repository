@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Informe del Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_QKUF79NQ" class="item encyclopediaArticle">
+			<h2>Celeste (videogame)</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Article enciclopèdic</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>Celeste is a 2018 platform game designed, directed and written
+ by Maddy Thorson and programmed by Thorson and Noel Berry. It is a 
+fully-fleshed version of the 2016 PICO-8 game of the same name, which 
+was made in four days solely by Thorson and Berry during a game jam. Set
+ on a fictional version of Mount Celeste, it follows a young woman named
+ Madeline who attempts to climb the mountain, and must face her inner 
+demons in her quest to reach the summit.
+Celeste was released worldwide independently on January 25, 2018, on 
+Microsoft Windows, Nintendo Switch, PlayStation 4, Xbox One, macOS, and 
+Linux, followed by a release on Stadia on July 28, 2020. It consists of 
+eight chapters, plus a free downloadable content chapter titled Farewell
+ released on September 9, 2019. Farewell acts as an epilogue to the main
+ story and adds 100 new screens.
+Celeste received universal acclaim upon release, and was largely 
+considered one of the best games of 2018. It received high praise for 
+its gameplay, level design, soundtrack, themes, and emotional story, as 
+well as for Madeline's characterization; it was also singled out for 
+being demanding yet enjoyable for both casual players, and those seeking
+ to speedrun it or complete all of its optional achievements. It won 
+many awards, including the Best Independent Game and Games for Impact 
+awards at The Game Awards 2018, where it was also nominated for Game of 
+the Year. Celeste was also a financial success, selling over a million 
+copies by the end of 2019 and largely exceeding its creators' 
+expectations, while also becoming a hit in the speedrunning community.</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>2021-11-23T19:16:44Z</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://en.wikipedia.org/w/index.php?title=Celeste_(video_game)&amp;oldid=1056821052">https://en.wikipedia.org/w/index.php?title=Celeste_(video_game)&amp;oldid=1056821052</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>29/11/2021, 12:11:19</td>
+					</tr>
+					<tr>
+					<th>Drets</th>
+						<td>Creative Commons Attribution-ShareAlike License</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Page Version ID: 1056821052</td>
+					</tr>
+					<tr>
+					<th>Títol de l'enciclopèdia</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>29/11/2021, 12:11:19</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>29/11/2021, 12:12:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Fitxers adjunts</h3>
+				<ul class="attachments">
+					<li id="item_JBXDP7TT">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_VMY5P7FP" class="item computerProgram">
+			<h2>Direct quote from Celeste</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Programari</td>
+					</tr>
+					<tr>
+						<th class="programmer">Programador</th>
+						<td>CH2_BADELINE_INTRO #23</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>'I'm the pragmatic part'</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 18:13:16</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 18:21:23</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_4C6D43UE" class="item computerProgram">
+			<h2>Direct quote from Celeste</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Programari</td>
+					</tr>
+					<tr>
+						<th class="programmer">Programador</th>
+						<td>CH2_BADELINE_INTRO #25</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>'Let's go home together'</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 18:20:25</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 18:20:46</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_CEG7QXER" class="item computerProgram">
+			<h2>Direct quote from Celeste</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Programari</td>
+					</tr>
+					<tr>
+						<th class="programmer">Programador</th>
+						<td>CHR_OSHIRO_SUITE #22-#25</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>'Madeline, sweetie, forget this loser'; 'You're in denial, old man'; 'This resort is a dump'</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 19:03:41</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 19:05:08</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_EUFBSY9I" class="item webpage">
+			<h2>ego | Definition &amp; Facts | Britannica</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Pàgina web</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>Ego, in psychoanalytic theory, that portion of the human personality which is experienced as the ‘self’ or ‘I.’</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.britannica.com/topic/ego-philosophy-and-psychology">https://www.britannica.com/topic/ego-philosophy-and-psychology</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>2/12/2021, 0:46:34</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>2/12/2021, 0:46:34</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>2/12/2021, 0:46:34</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_JXB4CWNP" class="item book">
+			<h2>El yo y el ello: tres ensayos sobre teoría sexual y otros ensayos</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Llibre</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Sigmund Freud</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>1984</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>Spanish</td>
+					</tr>
+					<tr>
+					<th>Títol curt</th>
+						<td>El yo y el ello</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Open WorldCat</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>OCLC: 708281379</td>
+					</tr>
+					<tr>
+					<th>Lloc</th>
+						<td>Barcelona</td>
+					</tr>
+					<tr>
+					<th>Editorial</th>
+						<td>Orbis</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-84-7530-456-4</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 17:54:01</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 19:11:16</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_T4K437PP" class="item book">
+			<h2>Freud and philosophy of mind</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Llibre</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Library of Congress ISBN</td>
+					</tr>
+					<tr>
+					<th>Lloc</th>
+						<td>New York, NY</td>
+					</tr>
+					<tr>
+					<th>Editorial</th>
+						<td>Springer Berlin Heidelberg</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-319-96342-6</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 17:33:49</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 17:33:49</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_CNDP4RUP" class="item book">
+			<h2>Freud: a collection of critical essays</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Llibre</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Richard Wollheim</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>1974</td>
+					</tr>
+					<tr>
+					<th>Títol curt</th>
+						<td>Freud</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Library of Congress ISBN</td>
+					</tr>
+					<tr>
+					<th>Número de catàleg</th>
+						<td>BF173.F85 W54</td>
+					</tr>
+					<tr>
+					<th>Lloc</th>
+						<td>Garden City, N.Y</td>
+					</tr>
+					<tr>
+					<th>Editorial</th>
+						<td>Anchor Books</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-385-07970-9</td>
+					</tr>
+					<tr>
+					<th>Sèrie</th>
+						<td>Modern studies in philosophy</td>
+					</tr>
+					<tr>
+					<th>Número de la sèrie</th>
+						<td>APO-22</td>
+					</tr>
+					<tr>
+					<th>Edició</th>
+						<td>1st ed.</td>
+					</tr>
+					<tr>
+					<th>Nre. de pàgines</th>
+						<td>416</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 17:53:20</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 17:53:20</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Etiquetes:</h3>
+				<ul class="tags">
+					<li>Freud, Sigmund</li>
+					<li>Psychoanalysis</li>
+				</ul>
+			</li>
+
+
+			<li id="item_FYFZSCDP" class="item webpage">
+			<h2>id | psychology | Britannica</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Pàgina web</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>id, in Freudian psychoanalytic theory, one of the three 
+agencies of the human personality, along with the ego and superego. The 
+oldest of these psychic realms in development, it contains the psychic 
+content related to the primitive instincts of the body, notably sex and 
+aggression, as well as all</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.britannica.com/science/id-psychology">https://www.britannica.com/science/id-psychology</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>2/12/2021, 0:44:29</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>2/12/2021, 0:44:28</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>2/12/2021, 0:44:28</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_P6DGVGMZ" class="item encyclopediaArticle">
+			<h2>Pragmatism</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Article enciclopèdic</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>Pragmatism is a philosophical tradition that considers words 
+and thought as tools and instruments for prediction, problem solving, 
+and action, and rejects the idea that the function of thought is to 
+describe, represent, or mirror reality. Pragmatists contend that most 
+philosophical topics—such as the nature of knowledge, language, 
+concepts, meaning, belief, and science—are all best viewed in terms of 
+their practical uses and successes.
+Pragmatism began in the United States in the 1870s. Its origins are 
+often attributed to the philosophers Charles Sanders Peirce, William 
+James, and John Dewey. In 1878, Peirce described it in his pragmatic 
+maxim: "Consider the practical effects of the objects of your 
+conception. Then, your conception of those effects is the whole of your 
+conception of the object."</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>2021-11-27T17:47:01Z</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://en.wikipedia.org/w/index.php?title=Pragmatism&amp;oldid=1057444351">https://en.wikipedia.org/w/index.php?title=Pragmatism&amp;oldid=1057444351</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>30/11/2021, 18:10:30</td>
+					</tr>
+					<tr>
+					<th>Drets</th>
+						<td>Creative Commons Attribution-ShareAlike License</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Page Version ID: 1057444351</td>
+					</tr>
+					<tr>
+					<th>Títol de l'enciclopèdia</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 18:10:30</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 18:10:30</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Fitxers adjunts</h3>
+				<ul class="attachments">
+					<li id="item_QN372SGE">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QVKP62BS" class="item journalArticle">
+			<h2>Psychology: The Science of Behavior</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Article de revista acadèmica</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Carlson N. R</td>
+					</tr>
+					<tr>
+					<th>Pàgines</th>
+						<td>453</td>
+					</tr>
+					<tr>
+					<th>Publicació</th>
+						<td>Personality</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 19:01:29</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 19:02:52</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_LATQHY9Q" class="item encyclopediaArticle">
+			<h2>Reality principle</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Article enciclopèdic</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>In Freudian psychology and psychoanalysis, the reality 
+principle (German: Realitätsprinzip) is the ability of the mind to 
+assess the reality of the external world, and to act upon it 
+accordingly, as opposed to acting on the pleasure principle.
+Allowing the individual to defer (put off) instant gratification, the 
+reality principle is the governing principle of the actions taken by the
+ ego, after its slow development from a "pleasure-ego" into a 
+"reality-ego": it may be compared to the triumph of reason over passion,
+ head over heart, rational over emotional mind, human values over animal
+ instinct.</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>2021-10-20T11:02:10Z</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://en.wikipedia.org/w/index.php?title=Reality_principle&amp;oldid=1050869621">https://en.wikipedia.org/w/index.php?title=Reality_principle&amp;oldid=1050869621</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>30/11/2021, 18:46:46</td>
+					</tr>
+					<tr>
+					<th>Drets</th>
+						<td>Creative Commons Attribution-ShareAlike License</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Page Version ID: 1050869621</td>
+					</tr>
+					<tr>
+					<th>Títol de l'enciclopèdia</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>30/11/2021, 18:46:46</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>30/11/2021, 18:46:46</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Fitxers adjunts</h3>
+				<ul class="attachments">
+					<li id="item_YWUMWW39">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KBHDASYJ" class="item webpage">
+			<h2>superego | Definition, Examples, &amp; Facts | Britannica</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Pàgina web</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.britannica.com/science/superego">https://www.britannica.com/science/superego</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>2/12/2021, 0:44:51</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>2/12/2021, 0:44:51</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>2/12/2021, 0:44:51</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_KWG99DZZ" class="item encyclopediaArticle">
+			<h2>Tabula rasa</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Article enciclopèdic</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>Tabula rasa (; "blank slate") is the theory that individuals 
+are born without built-in mental content, and therefore all knowledge 
+comes from experience or perception. Epistemological proponents of 
+tabula rasa disagree with the doctrine of innatism, which holds that the
+ mind is born already in possession of certain knowledge. Proponents of 
+the tabula rasa theory also favour the "nurture" side of the nature 
+versus nurture debate when it comes to aspects of one's personality, 
+social and emotional behaviour, knowledge, and sapience.</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>2021-11-11T18:13:54Z</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Catàleg de la biblioteca</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://en.wikipedia.org/w/index.php?title=Tabula_rasa&amp;oldid=1054714643">https://en.wikipedia.org/w/index.php?title=Tabula_rasa&amp;oldid=1054714643</a></td>
+					</tr>
+					<tr>
+					<th>Últim accés</th>
+						<td>2/12/2021, 0:52:31</td>
+					</tr>
+					<tr>
+					<th>Drets</th>
+						<td>Creative Commons Attribution-ShareAlike License</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Page Version ID: 1054714643</td>
+					</tr>
+					<tr>
+					<th>Títol de l'enciclopèdia</th>
+						<td>Wikipedia</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>2/12/2021, 0:52:31</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>2/12/2021, 0:52:52</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Fitxers adjunts</h3>
+				<ul class="attachments">
+					<li id="item_Q3WRN8HS">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6UVQ2BA5" class="item blogPost">
+			<h2>The Three Thee Theory</h2>
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Entrada de bloc</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Pol Roca Cugat</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://biblio.peiphy.xyz/three-thee">https://biblio.peiphy.xyz/three-thee</a></td>
+					</tr>
+					<tr>
+					<th>Títol del blog</th>
+						<td>Bibliography</td>
+					</tr>
+					<tr>
+					<th>Tipus de pàgina web</th>
+						<td>Bibliography page</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>1/12/2021, 23:31:56</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>1/12/2021, 23:36:08</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_3IBVRWEA" class="item email">
+				<table>
+					<tbody><tr>
+						<th>Tipus</th>
+						<td>Correu electrònic</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Joan Vergés Gifra</td>
+					</tr>
+					<tr>
+					<th>Resum</th>
+						<td>Benvolgut Professor Verges,
+
+    Perdoni per molestar-lo. Sóc un estudiant del Batxillerat 
+Internacional, i se m'ha encarregat escriure un assaig filosòfic. Mentre
+ l'escrivia me n'he adonat que no hi ha hagut ningú abans que hagi 
+formulat una teoria semblant a la que he desenvolupat jo, però potser és
+ que ha quedat enterrada entre mil i un resultats.
+    Resumint-ho molt, he decidit lligar les tres teories de l'humà 
+(l'home com a ésser racional, l'home com a ésser irracional i l'home com
+ una pissarra en blanc) amb les teories del conscient i subconscient 
+(Ego, Super-Ego i Id) de Freud, és a dir: l'home és racional (ego), 
+irracional (Id) i una tabula rassa (super-ego).
+    La meva professora creu que ningú ho ha fet abans, però m'ha 
+recomanat contactar amb un expert, com vostè, ja que potser algú ho ha 
+fet abans i podria trobar una explicació més professional d'aquest 
+pensament.
+
+    Moltes gràcies per avançat, 
+
+    Pol Roca i Cugat
+    Estudiant de 1r de Batxillerat Internacional - Ins Jaume Vicens i 
+Vives
+
+-------------------------------------------
+
+Benvolgut Pol,
+
+jo tampoc no tinc notícia d'algú que hagi elaborat una teoria establint 
+una connexió aparentment tan estreta entre aquestes dues tríades. La 
+qüestió, però, és per què, però. Tal vegada sigui una connexió estranya o
+ poc justificada. No acabo de veure clar, ara mateix, que pugui 
+equiparar-se, per exemple, l'ego amb la racionalitat, o la "tabula rasa"
+ amb el super-ego. Vull dir, tot depèn de com ho expliquis.
+
+En qualsevol cas, et desitjo molts d'ànims i sort en aquesta aventura 
+teòrica. És apassionant, oi?
+
+Ben cordialment,
+Joan Vergés Gifra
+Càtedra Ferrater Mora de Pensament Contemporani
+Universitat de Girona</td>
+					</tr>
+					<tr>
+					<th>Data</th>
+						<td>01/12/2021</td>
+					</tr>
+					<tr>
+					<th>Llengua</th>
+						<td>ca</td>
+					</tr>
+					<tr>
+					<th>Tema</th>
+						<td>Pregunta sobre una teoria</td>
+					</tr>
+					<tr>
+					<th>Afegit</th>
+						<td>1/12/2021, 22:52:27</td>
+					</tr>
+					<tr>
+					<th>Modificat</th>
+						<td>1/12/2021, 22:54:22</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+		</ul>
+	
+</body></html>

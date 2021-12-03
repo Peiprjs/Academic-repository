@@ -6,4 +6,4 @@ Welcome to my bibliography launcher!
 - [004](004.htm): First philosophy paper: Celeste and the three thees
 
 **Other projects**
-- [The Three Thee Theory](three-thee): A philosophical theory I came up with.
+- [The Three Thees Theory](three-thee): A philosophical theory I came up with.

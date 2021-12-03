@@ -1,9 +1,10 @@
 # The Three Thees Theory
 ```javascript 
-Version 0.1.25
+Version 0.1.26
 ```
 > Are you... me?
 ## Abstract
+This theory links Freud's theories on the ego, super-ego and Id with the three main theories on the human being: rational, irrational and blank slate (*Tabula Rassa*). This link is purely theoretical and relies on previous theories.
 ## Introduction
 ## Demonstration
 ## Conclusion

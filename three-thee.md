@@ -8,3 +8,5 @@ This theory links Freud's theories on the ego, super-ego and Id with the three m
 ## Introduction
 ## Demonstration
 ## Conclusion
+
+[**Translate this page** with Google Translator](https://biblio-peiphy-xyz.t]ranslate.goog/three-thee?_x_tr_sl=en&_x_tr_tl=ca&_x_tr_hl=ca)

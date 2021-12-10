@@ -1,6 +1,6 @@
 # The Three Thees Theory
 ```javascript 
-Version 0.1.32
+Version 0.1.36
 ```
 
 > Are you... me?

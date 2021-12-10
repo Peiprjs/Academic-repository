@@ -6,7 +6,7 @@ Version 0.1.32
 > Are you... me?
 
 ## Abstract
-This theory links Freud's theories on the ego, super-ego and Id with the three main theories on the human being: rational, irrational and blank slate (*Tabula Rassa*). This link is purely theoretical and relies on previous theories. This theory dictates that each being is actually a group of inner beings (or "thees"), and that the quantity varies between the different species capable of basic thought (if we consider basic thought as being able to give an acceptable response to external inputs, the list of which would be a carbon copy of those species considered "alive"). Humans have three: the *cubile*, which takes care of the survival instincts and would be similar to Freud's Id; 
+This theory links Freud's theories on the ego, super-ego and Id with the three main theories on the human being: rational, irrational and blank slate (*Tabula Rassa*). This link is purely theoretical and relies on previous theories. This theory dictates that each being is actually a group of inner beings (or "thees"), and that the quantity varies between the different species capable of basic thought (if we consider basic thought as being able to give an acceptable response to external inputs, the list of which would be a carbon copy of those species considered "alive"). Humans have three: the *cubile*, which takes care of the survival instincts and would be similar to Freud's Id; the *cogitatio*, which
 ## Introduction
 ## Demonstration
 ## Conclusion

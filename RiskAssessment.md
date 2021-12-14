@@ -1,0 +1,65 @@
+## 1.Information
+- Experiment maximum Biosecurity Level: BSL3
+- Experiment average Biosecurity Level: BSL2
+- Biological agents present:
+  - Staphilococcus Aureus (MRSA/MSSA)
+  - SARS-COV 2
+  - Other human bacteria and viruses
+- Procedures:
+  - Sampling
+  - Culture
+  - Sequencing
+  - Optic observation
+- Equipment:
+  - Optic microscope
+  - Sampling swabs
+  - MSA Agar Petri Dishes
+  - Heater
+  - Inactivation shield
+- Laboratory: BSL0 (adaptable)
+- Human factors:
+  - Experienced sampler
+  - Inexperienced (trained) sampler
+  - Subjects
+  - Teacher (controller)
+
+## 2. Risk evaluation
+- Possible exposure:
+  - Subject -> Researcher (Very unlikely)
+  - Sample -> Researcher (Very unlikely)
+- Possible release:
+  - Sample getting stolen (Unlikely)
+  - Sample not being taken care of properly (Unlikely)
+  - Sample getting lost (Unlikely)
+- Influence to exposure:
+  - Inadequate PPE
+  - Malevolent act
+  - Irresponsibility
+- Influence to release:
+  - Inadequate PPE
+  - Malevolent act
+  - Irresponsibility
+- Consequences: personal ranging;
+  - On open wound: infection, maybe RS
+  - On aerosol: light symptoms
+- Overall initial risk level: 15%
+- Acceptable risk level: 5%
+- Acceptable risks: Slight margin of human error involving sampling
+- Unacceptable risks: Human error due to incompetence or low concentration
+- Unacceptable risks controllable: True
+
+## 3. Risk mitigation
+- Resources available:
+  - PPE
+  - Education
+- Risk control steps:
+  - PPE when sampling: (FPP2 mask) with (eye protection or face shield) with (gloves)
+  - Education on proper sampling techniques and subject behaviour control.
+  - PPE when investigating: FFP2 mask with eye protection with gloves
+  - Investigation environment: closed laboratory, one table
+  - Disinfection: Bleach solution, 15%; alcohol; hand wash.
+- Measures sufficient: True
+- Measures effective: True
+- Measures sustainable: True
+- Measures achievable: True
+- Risk mitigation: 10%-12%

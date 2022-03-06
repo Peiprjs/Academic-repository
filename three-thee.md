@@ -25,4 +25,4 @@ N. R, Carlson. n.d. ‘Psychology: The Science of Behavior’. Personality, 453.
 ‘Superego’. n.d. Accessed 2 December 2021. https://www.britannica.com/science/superego. \
 ‘Tabula Rasa’. 2021. In Wikipedia. https://en.wikipedia.org/w/index.php?title=Tabula_rasa&oldid=1054714643. \
 Vergés Gifra, Joan. 2021. ‘Pregunta sobre una teoria’, 1 December 2021. \
-Wollheim, Richard. 1974. Freud: A Collection of Critical Essays. 1st ed. Modern Studies in Philosophy, APO-22. Garden City, N.Y: Anchor Books. \
+Wollheim, Richard. 1974. Freud: A Collection of Critical Essays. 1st ed. Modern Studies in Philosophy, APO-22. Garden City, N.Y: Anchor Books. 

@@ -9,3 +9,4 @@ Welcome to my bibliography launcher!
 ## Other projects 
 - [The Three Thees Theory](three-thee): A philosophical theory I came up with.
 - [Research paper risk assessment](RiskAssessment): the risk assessment for a microbiology study
+- [Prova del Manipulador](prova-manipulador): the basic explanation for a microbiology study
